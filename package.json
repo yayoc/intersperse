@@ -1,0 +1,32 @@
+{
+  "name": "intersperse",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "precommit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yayoc/intersperse.git"
+  },
+  "author": "yayoc <hi@yayoc.com> (http://yayoc.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yayoc/intersperse/issues"
+  },
+  "lint-staged": {
+    ".js": [
+      "prettier",
+      "git add"
+    ]
+  },
+  "homepage": "https://github.com/yayoc/intersperse#readme",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "jest": "^21.2.1",
+    "lint-staged": "^4.3.0",
+    "prettier": "1.7.4"
+  }
+}
