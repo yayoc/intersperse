@@ -17,10 +17,7 @@
     "url": "https://github.com/yayoc/intersperse/issues"
   },
   "lint-staged": {
-    ".js": [
-      "prettier",
-      "git add"
-    ]
+    "*.{js,json}": ["prettier --write", "git add"]
   },
   "homepage": "https://github.com/yayoc/intersperse#readme",
   "devDependencies": {
