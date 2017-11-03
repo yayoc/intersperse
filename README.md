@@ -6,7 +6,7 @@
 ### Example
 
 ```js
-const intersperse = require("intersperse"); 
+const intersperse = require("@yayoc/intersperse"); 
 
 intersperse("," "ABCDEF") // "A,B,C,D,E,F"
 
